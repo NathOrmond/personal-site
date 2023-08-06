@@ -1,0 +1,9 @@
+<div>
+    <h2 *ngIf="sectionTitle">{{ sectionTitle }}</h2>
+    <div *ngFor="let infoSectionItemProps of infoSectionItemsProps">
+        <info-section-item
+            [infoSectionProps]="infoSectionItemProps"
+        >
+        </info-section-item>
+    <div>
+</div>
