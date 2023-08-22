@@ -7,13 +7,13 @@ export class AboutMeModel implements AboutMe {
     private links: Array<string>;
     private description: string;
 
-    constructor( name: string, jobTitle: string, location: string, email: string, links: [string], description: string ){
+    constructor( name: string, jobTitle: string, location: string, email: string, links: Array<string>, description: string ){
         this.name = name;
         this.jobTitle = jobTitle;
         this.location = location;
         this.email = email;
         this.links = links;
-        this.description = description;    
+        this.description = description;
     }
 
     getName(): string {
