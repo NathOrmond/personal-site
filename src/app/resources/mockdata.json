@@ -1,0 +1,31 @@
+{
+  "body" : [
+    {
+      "type": "about-me-section",
+      "content": {
+        "name": "",
+        "jobTitle": "",
+        "location": "",
+        "email": "",
+        "links": [""],
+        "description": ""
+      }
+    },
+    {
+      "type": "info-section",
+      "content": {
+        "headline": "",
+        "subTitles": [""],
+        "details": ""
+      }
+    },
+    {
+      "type": "info-section",
+      "content": {
+        "headline": "",
+        "subTitles": [""],
+        "details": ""
+      }
+    }
+  ]
+}
